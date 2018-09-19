@@ -1,0 +1,31 @@
+{
+  "name": "chuck-o-bot",
+  "version": "1.0.0",
+  "description": "Twitter bot that tweets random Chuck Norris jokes.",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pecko95/Chuck-o-Bot.git"
+  },
+  "keywords": [
+    "twitter",
+    "bot",
+    "jokes",
+    "chuck",
+    "norris"
+  ],
+  "author": "Petar Stevovski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pecko95/Chuck-o-Bot/issues"
+  },
+  "homepage": "https://github.com/pecko95/Chuck-o-Bot#readme",
+  "dependencies": {
+    "node-fetch": "^2.2.0",
+    "twit": "^2.2.11"
+  }
+}
